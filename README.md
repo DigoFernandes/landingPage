@@ -32,5 +32,8 @@ Sinta-se à vontade para explorar o código-fonte e modificar conforme necessár
 
 ## Fotos
 
-![Foto 1]([https://image.prntscr.com/image/jAFP0TY7z8u0.jpg](https://prnt.sc/jAFP0TY7z8u0))
-![Foto 2](https://prnt.sc/7810G3pvO1Fm)
+![captura2](https://github.com/DigoFernandes/landingPage/assets/60413250/744a9130-329e-4004-a9b9-278490905fa1)
+
+![captura1](https://github.com/DigoFernandes/landingPage/assets/60413250/1b76117c-3899-4e30-8815-80c50975473e)
+
+
