@@ -1,7 +1,8 @@
 import React from "react";
 import Container from "./Container";
-import IconPhone from "@/assets/icon-phone.svg"
+import IconPhone from "@/assets/icon-phone.svg";
 import Image from "next/image";
+import List from "./List";
 
 export default function SectionServices() {
   return (
@@ -19,42 +20,30 @@ export default function SectionServices() {
             segura,rápida e o melhor, no conforto de casa
           </p>
 
-          <ul>
-            <li className="flex items-center gap-9 pb-9 border-b-[1px] border-opacity-gray">
-              <div className="w-7 h-7 flex items-center justify-center">
-                <Image src={IconPhone} alt="Phone icon" />
-              </div>
-              <p className="flex-1 text-txt-gray pr-2">
-                Acompanhar sua conta, fazer transferencias e pagamentos onde
-                estiver
-              </p>
-            </li>
-            <li className="flex pt-3 items-center gap-9 pb-9 border-b-[1px] border-opacity-gray">
-              <div className="w-7 h-7 flex items-center justify-center">
-                <Image src={IconPhone} alt="Phone icon" />
-              </div>
-              <p className="flex-1 text-txt-gray pr-2">
-                Soluções de empresas e renegociação para organizar suas finanças
-              </p>
-            </li>
-            <li className="flex items-center pt-3 gap-9 pb-9 border-b-[1px] border-opacity-gray">
-              <div className="w-7 h-7 flex items-center justify-center">
-                <Image src={IconPhone} alt="Phone icon" />
-              </div>
-              <p className="flex-1 text-txt-gray pr-2">
-                Diversas opções de investimentos, de acordo com o seu perfil de
-                investidor
-              </p>
-            </li>
-            <li className="flex items-center pt-3 gap-9 pb-3 border-b-[1px] border-opacity-gray">
-              <div className="w-7 h-7 flex items-center justify-center">
-                <Image src={IconPhone} alt="Phone icon" />
-              </div>
-              <p className="flex-1 text-txt-gray pr-2">
-                Acompnahe a faturo do seu cartão de crédito e faça comrpas
-                online com seu cartão virtual
-              </p>
-            </li>
+          <ul className="flex flex-col items-start  gap-9">
+            <List
+              alt="Phone Icon"
+              icon={IconPhone}
+              desc="Acompanhar sua conta, fazer transferencias e pagamentos onde
+                estiver"
+            />
+            <List
+              alt="Phone Icon"
+              icon={IconPhone}
+              desc="Soluções de empresas e renegociação para organizar suas finanças"
+            />
+            <List
+              alt="Phone Icon"
+              icon={IconPhone}
+              desc="Diversas opções de investimentos, de acordo com o seu perfil de
+                investidor"
+            />
+            <List
+              alt="Phone Icon"
+              icon={IconPhone}
+              desc="Acompnahe a faturo do seu cartão de crédito e faça comrpas
+                online com seu cartão virtual"
+            />
           </ul>
         </div>
       </Container>
