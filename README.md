@@ -12,8 +12,7 @@ As imagens incluídas neste projeto são utilizadas apenas para estudo e não s�
 
 - Next.js
 - React
-- HTML
-- CSS
+- Tailwind CSS
 
 ## Como Usar
 
