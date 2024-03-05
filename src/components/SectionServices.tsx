@@ -29,15 +29,32 @@ export default function SectionServices() {
                 estiver
               </p>
             </li>
-            <li className="flex items-center gap-9 pb-9 border-b-[1px] border-opacity-gray">
+            <li className="flex pt-3 items-center gap-9 pb-9 border-b-[1px] border-opacity-gray">
               <div className="w-7 h-7 flex items-center justify-center">
                 <Image src={IconPhone} alt="Phone icon" />
               </div>
               <p className="flex-1 text-txt-gray pr-2">
-               Soluções de empresas e renegociação para organizar suas finanças
+                Soluções de empresas e renegociação para organizar suas finanças
               </p>
             </li>
-            
+            <li className="flex items-center pt-3 gap-9 pb-9 border-b-[1px] border-opacity-gray">
+              <div className="w-7 h-7 flex items-center justify-center">
+                <Image src={IconPhone} alt="Phone icon" />
+              </div>
+              <p className="flex-1 text-txt-gray pr-2">
+                Diversas opções de investimentos, de acordo com o seu perfil de
+                investidor
+              </p>
+            </li>
+            <li className="flex items-center pt-3 gap-9 pb-3 border-b-[1px] border-opacity-gray">
+              <div className="w-7 h-7 flex items-center justify-center">
+                <Image src={IconPhone} alt="Phone icon" />
+              </div>
+              <p className="flex-1 text-txt-gray pr-2">
+                Acompnahe a faturo do seu cartão de crédito e faça comrpas
+                online com seu cartão virtual
+              </p>
+            </li>
           </ul>
         </div>
       </Container>
