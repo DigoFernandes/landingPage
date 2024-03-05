@@ -28,7 +28,6 @@ Este projeto foi criado como parte de um estudo de Next.js e React e não repres
 
 As imagens usadas são apenas para fins de estudo e podem estar sujeitas a direitos autorais. Recomenda-se substituir as imagens por recursos adequados ao criar um projeto real para evitar violações de direitos autorais.
 
-Sinta-se à vontade para explorar o código-fonte e modificar conforme necessário para atender às suas necessidades.
 
 ## Fotos
 
