@@ -29,9 +29,3 @@ Este projeto foi criado como parte de um estudo de Next.js e React e não repres
 As imagens usadas são apenas para fins de estudo e podem estar sujeitas a direitos autorais. Recomenda-se substituir as imagens por recursos adequados ao criar um projeto real para evitar violações de direitos autorais.
 
 
-## Fotos
-
-
-![captura1](https://github.com/DigoFernandes/landingPage/assets/60413250/1b76117c-3899-4e30-8815-80c50975473e)
-
-
