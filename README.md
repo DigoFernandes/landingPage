@@ -30,3 +30,7 @@ As imagens usadas são apenas para fins de estudo e podem estar sujeitas a direi
 
 Sinta-se à vontade para explorar o código-fonte e modificar conforme necessário para atender às suas necessidades.
 
+## Fotos
+
+![Foto 1](https://image.prntscr.com/image/jAFP0TY7z8u0.jpg)
+![Foto 2](https://image.prntscr.com/image/7810G3pvO1Fm.jpg)
