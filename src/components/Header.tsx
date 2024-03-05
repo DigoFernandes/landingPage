@@ -3,11 +3,14 @@ import React from "react";
 import Logo from "@/assets/logo.svg";
 import ItemMenu from "./ItemMenu";
 import Search from "./Search";
+import IconUser from "@/assets/icon-user.svg";
+import Container from "./Container";
 
 export default function Header() {
   return (
-    <header className="flex items-center w-full h-20 bg-primary-orange ">
-      <div className="w-full max-w-[1246px] px-[15px] mx-auto">
+    <header className="relative flex items-center w-full h-20 bg-primary-orange ">
+      <div className="absolute top-0 right-0 bg-primary-blue h-full w-[19%] z-[0]"></div>
+      <Container>
         <div className="flex flex-1 items-center justify-between">
           <div className="flex items-center gap-[57px]">
             <Image src={Logo} alt="logo" />
@@ -26,11 +29,13 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <div className="">
-            <Search/>
-          </div>
+          <Search />
         </div>
-      </div>
+        <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-[1] ">
+          <Image src={IconUser} alt="Icon User" />
+          <span className="text-white font-bold">Acessar conta</span>
+        </button>
+      </Container>
     </header>
   );
 }
