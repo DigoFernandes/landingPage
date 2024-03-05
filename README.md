@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing Page Utilizando Next.js
 
-## Getting Started
+Este repositório contém uma landing page desenvolvida utilizando a tecnologia Next.js.
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto consiste em uma landing page simples criada com Next.js, uma estrutura de aplicativo da web React de código aberto que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web React.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As imagens incluídas neste projeto são utilizadas apenas para estudo e não são destinadas a fins comerciais.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- React
+- HTML
+- CSS
 
-## Learn More
+## Como Usar
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone este repositório.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências utilizando o comando `npm install`.
+4. Inicie o servidor de desenvolvimento com o comando `npm run dev`.
+5. Abra seu navegador e acesse `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Observações
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Este projeto foi criado como parte de um estudo de Next.js e React e não representa um projeto completo ou funcionalidade completa de um site real.
 
-## Deploy on Vercel
+As imagens usadas são apenas para fins de estudo e podem estar sujeitas a direitos autorais. Recomenda-se substituir as imagens por recursos adequados ao criar um projeto real para evitar violações de direitos autorais.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Sinta-se à vontade para explorar o código-fonte e modificar conforme necessário para atender às suas necessidades.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
