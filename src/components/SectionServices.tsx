@@ -1,12 +1,15 @@
 import React from "react";
 import Container from "./Container";
 import IconPhone from "@/assets/icon-phone.svg";
+import IconSolutions from "@/assets/icon-solutions.svg";
+import IconOptions from "@/assets/icon-options.svg";
+import IconCard from "@/assets/icon-card.svg";
 import Image from "next/image";
 import List from "./List";
-
+import ImagePhone from "@/assets/phone.png"
 export default function SectionServices() {
   return (
-    <section className="w-full h-[965px] pt-32">
+    <section className="relative w-full h-[965px] pt-32">
       <Container>
         <div className="flex-1 max-w-[594px]">
           <span className="text-primary-orange text-sm font-bold uppercase block mb-9">
@@ -28,25 +31,29 @@ export default function SectionServices() {
                 estiver"
             />
             <List
-              alt="Phone Icon"
-              icon={IconPhone}
+              alt="Solutions Icon"
+              icon={IconSolutions}
               desc="Soluções de empresas e renegociação para organizar suas finanças"
             />
             <List
-              alt="Phone Icon"
-              icon={IconPhone}
+              alt="Options Icon"
+              icon={IconOptions}
               desc="Diversas opções de investimentos, de acordo com o seu perfil de
                 investidor"
             />
             <List
-              alt="Phone Icon"
-              icon={IconPhone}
+              alt="Card Icon"
+              icon={IconCard}
               desc="Acompnahe a faturo do seu cartão de crédito e faça comrpas
                 online com seu cartão virtual"
             />
           </ul>
         </div>
+
       </Container>
+        <div className="absolute top-0 flex w-[32%] h-full items-center right-0 bg-gray-phone">
+            <Image src={ImagePhone} alt="Giant Phone image" className="translate-x-[-50%]"/>
+        </div>
     </section>
   );
 }
