@@ -31,7 +31,6 @@ As imagens usadas são apenas para fins de estudo e podem estar sujeitas a direi
 
 ## Fotos
 
-![captura2](https://github.com/DigoFernandes/landingPage/assets/60413250/744a9130-329e-4004-a9b9-278490905fa1)
 
 ![captura1](https://github.com/DigoFernandes/landingPage/assets/60413250/1b76117c-3899-4e30-8815-80c50975473e)
 
